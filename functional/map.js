@@ -8,7 +8,7 @@ const students = [
     { name: 'Breno', score: 6.2},
     { name: 'Samara',score: 8.3},
     { name: 'Samyle',score: 5.3},
-    { name: 'Marele',score: 4.5},
+    { name: 'Marlene',score: 4.5},
     { name: 'Assur', score: 6.4}
 ]
 
@@ -19,4 +19,3 @@ console.log(
       .map(Math.ceil)
 )
 
-console.log(students)
