@@ -1,1 +1,12 @@
-const 
+function run(fn){
+    return `Result: ${fn()} `
+}
+
+function sayHello() {
+    console.log('Hello !!')
+}
+
+run(sayHello)
+run( n => console.log('run !!'))
+const result = run(Math.random)
+console.log(result * 2)
